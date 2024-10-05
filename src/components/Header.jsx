@@ -41,7 +41,6 @@ const Header = () => {
             <h1 className="text-2xl font-semibold text-n-1 w-full ml-2">
               YNA Foundation
             </h1>
-
           </div>
         </a>
 
