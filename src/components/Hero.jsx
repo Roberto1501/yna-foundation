@@ -38,8 +38,8 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             A complete Ecossystem ready to accept projects which will change the world.
           </p>
-          <Button  white>
-            Get started
+          <Button white>
+            <a href="#features">Get started</a>
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
