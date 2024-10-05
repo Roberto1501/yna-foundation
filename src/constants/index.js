@@ -42,14 +42,10 @@ export const navigation = [
     title: "Features",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+
   {
     id: "2",
-    title: "How to use",
+    title: "Be a partner",
     url: "#how-to-use",
   },
   {
@@ -59,16 +55,11 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
+    title: "Connect",
     url: "#signup",
     onlyMobile: true,
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -95,10 +86,10 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice Recognition for Accessibility",
-    text: "Integrate voice recognition to empower users with disabilities, allowing them to interact with our platform seamlessly and access philanthropic resources effortlessly.",
-    date: "May 2023",
-    status: "done",
+    title: "Global Communication Platform",
+    text: "Develop a comprehensive platform that facilitates direct communication between donors and beneficiaries, ensuring transparency and fostering trust in philanthropic initiatives worldwide.",
+    date: "May 2025",
+    status: "in progress",
     imageUrl: roadmap1,
     colorful: true,
   },
@@ -106,7 +97,7 @@ export const roadmap = [
     id: "1",
     title: "Gamification for Engagement",
     text: "Implement gamification features to incentivize users in contributing to and supporting charitable projects, enhancing engagement and community participation.",
-    date: "August 2023",
+    date: "September 2025",
     status: "in progress",
     imageUrl: roadmap2,
     colorful: true,
@@ -115,8 +106,8 @@ export const roadmap = [
     id: "2",
     title: "Smart Contract Implementation",
     text: "Deploy smart contracts to automate and secure funding processes for philanthropic projects, ensuring transparency and trust in donations.",
-    date: "November 2023",
-    status: "planned",
+    date: "May 2026",
+    status: "in progress",
     imageUrl: roadmap3,
     colorful: true,
   },
@@ -124,8 +115,8 @@ export const roadmap = [
     id: "3",
     title: "Decentralized Fundraising Platform",
     text: "Launch a platform for decentralized fundraising that enables charitable organizations to raise funds directly from supporters, minimizing overhead costs.",
-    date: "February 2024",
-    status: "planned",
+    date: "July 2026",
+    status: "in progress",
     imageUrl: roadmap4,
     colorful: true,
   },
