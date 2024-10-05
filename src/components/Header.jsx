@@ -43,7 +43,6 @@ const Header = () => {
             </h1>
 
           </div>
-
         </a>
 
         <nav
