@@ -34,7 +34,7 @@ const Services = () => {
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Blockchain for Social Impact</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
+              <p className="body-2 mb-[3rem] text-white font-bold">
                 Harness the power of blockchain to transform philanthropic visions into lasting global impact, secure, transparent, and limitless.
               </p>
               <ul className="body-2">
@@ -44,7 +44,7 @@ const Services = () => {
                     className="flex items-start py-4 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
+                    <p className="ml-4 text-white font-bold">{item}</p>
                   </li>
                 ))}
               </ul>
@@ -67,7 +67,7 @@ const Services = () => {
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">The born of a new world</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
+                <p className="body-2 mb-[3rem] text-white">
                   The leading platform for innovative apps and blockchain solutions&apos;
                   supply the chang the world needs.
                 </p>
@@ -79,7 +79,7 @@ const Services = () => {
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Blockchain for Philanthropic Financing</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
+                <p className="body-2 mb-[2rem] text-white font-bold">
                   Unlock the potential of blockchain to facilitate secure and transparent funding for philanthropic projects worldwide. How will you drive positive change through decentralized finance?
                 </p>
 
