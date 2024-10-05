@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Blockchain Empowering Philanthropy"
+          text="Unlock the full potential of decentralized technology to drive innovation in charitable initiatives, providing secure, transparent, and scalable solutions for social impact."
         />
 
         <div className="relative">
@@ -33,9 +33,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Blockchain for Social Impact</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Harness the power of blockchain to transform philanthropic visions into lasting global impact, secure, transparent, and limitless.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -78,19 +78,20 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Blockchain for Philanthropic Financing</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Unlock the potential of blockchain to facilitate secure and transparent funding for philanthropic projects worldwide. How will you drive positive change through decentralized finance?
                 </p>
+
+
 
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${index === 0
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
+                        ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
+                        : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
                         }`}
                     >
                       <div
@@ -108,7 +109,7 @@ const Services = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                {/*
+
                 <img
                   src={service3}
                   className="w-full h-full object-cover"
@@ -116,7 +117,7 @@ const Services = () => {
                   height={400}
                   alt="Scary robot"
                 />
-                */}
+
                 <VideoChatMessage />
                 <VideoBar />
               </div>

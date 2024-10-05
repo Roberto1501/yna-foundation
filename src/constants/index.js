@@ -78,10 +78,11 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Decentralized Fundraising",
+  "Transparent Donation Tracking",
+  "Smart Contract Automation",
 ];
+
 
 export const brainwaveServicesIcons = [
   recording03,
@@ -94,8 +95,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Voice Recognition for Accessibility",
+    text: "Integrate voice recognition to empower users with disabilities, allowing them to interact with our platform seamlessly and access philanthropic resources effortlessly.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -103,32 +104,36 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Gamification for Engagement",
+    text: "Implement gamification features to incentivize users in contributing to and supporting charitable projects, enhancing engagement and community participation.",
+    date: "August 2023",
+    status: "in progress",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Smart Contract Implementation",
+    text: "Deploy smart contracts to automate and secure funding processes for philanthropic projects, ensuring transparency and trust in donations.",
+    date: "November 2023",
+    status: "planned",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Decentralized Fundraising Platform",
+    text: "Launch a platform for decentralized fundraising that enables charitable organizations to raise funds directly from supporters, minimizing overhead costs.",
+    date: "February 2024",
+    status: "planned",
     imageUrl: roadmap4,
+    colorful: true,
   },
+
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With smart integration and top-node security, it's the perfect solution for the world.";
 
 export const collabContent = [
   {
@@ -138,11 +143,11 @@ export const collabContent = [
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Smart Integration",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Top-node Security",
   },
 ];
 
@@ -244,16 +249,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Support Philanthropic Innovation",
+    text: "Empowers individuals and organizations to build impactful, charitable projects with ease using decentralized technology.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Transparent and Secure Donations",
+    text: "Ensures that donations and funds are transparently tracked on the blockchain, fostering trust between donors and projects.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +266,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Global Accessibility",
+    text: "Allows anyone, anywhere, to contribute to charitable projects or start their own initiatives, breaking down geographic barriers.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Low Transaction Fees",
+    text: "Leverages blockchain technology to minimize transaction fees, ensuring that more funds go directly to causes.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +283,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Decentralized Governance",
+    text: "Gives communities control over project decisions, ensuring that philanthropic efforts are aligned with collective goals and values.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Continuous Improvement",
+  text: "Our blockchain is designed to adapt and grow with your philanthropic projects, offering evolving support and resources for maximizing social impact.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
